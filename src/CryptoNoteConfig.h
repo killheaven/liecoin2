@@ -129,12 +129,12 @@ struct CheckpointData {
   const char* blockId;
 };
 
-// const CheckpointData CHECKPOINTS[] = {
-// 	{1000, "95e016693e0422dbfec51e74342bebcad7b7684f04040c559b9284f937ad1d32"},
-// 	{5000, "1e7f45e303054aee30feb494b0b69a3a030aa41c2ebe2042a517343ac40fa257"},
-// 	{10000, "9c4b950f0439d9beb1051d6e39374291300d8cc4c3223aa8d432c04e291b591a"},
-// 	{25000, "965d533cef5baab75424a58748eada049b5af6ec587fab619810fe38f43e6ed6"},
-// };
+const CheckpointData CHECKPOINTS[] = {
+	// {1000, "95e016693e0422dbfec51e74342bebcad7b7684f04040c559b9284f937ad1d32"},
+	// {5000, "1e7f45e303054aee30feb494b0b69a3a030aa41c2ebe2042a517343ac40fa257"},
+	// {10000, "9c4b950f0439d9beb1051d6e39374291300d8cc4c3223aa8d432c04e291b591a"},
+	// {25000, "965d533cef5baab75424a58748eada049b5af6ec587fab619810fe38f43e6ed6"},
+};
 }
 
 #define ALLOW_DEBUG_COMMANDS
