@@ -88,7 +88,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "liecoin";
-
+const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001debcd0ac8c0b029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210134d1e25b0ec979e1004d0e61ccdb22cc191da3714973587357b633da85760c15";
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  TRANSACTION_VERSION_1;
