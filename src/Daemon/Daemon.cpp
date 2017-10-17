@@ -206,13 +206,6 @@ int main(int argc, char* argv[])
     //create objects and link them
     CryptoNote::CurrencyBuilder currencyBuilder(logManager);
     currencyBuilder.testnet(testnet_mode);
-    
-    try {
-      CryptoNote::Currency currency = currencyBuilder.currency();
-    } catch (std::exception&) {
-      std::cout << "GENESIS_COINBASE_TX_HEX constant has an incorrect value. Please launch: " << CryptoNote::CRYPTONOTE_NAME << "d --" << arg_print_genesis_tx.name;
-      return 1;
-    }
 
     CryptoNote::Checkpoints checkpoints(logManager);
     if (!testnet_mode) {
